@@ -1,7 +1,8 @@
-# KBQA Papers
-Knowledge base question answering (KBQA) aims to answer a question over a knowledge base (KB). This repo is a paper list of KBQA. I will keep it updating and welcome pull requests and issues!
-
+# KBQA Paper List
 ![](https://img.shields.io/github/last-commit/JBoRu/KBQAPapers?color=blue) ![](https://img.shields.io/badge/PaperNumber-77-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)
+
+Knowledge base question answering (KBQA) aims to answer a question over a knowledge base (KB). This repo is a paper list of KBQA. I will keep it updating and welcome pull requests and issues!
+This list based on our lateset survey paper: [A Survey on Complex Knowledge Base Question Answering: Methods, Challenges and Solutions](https://arxiv.org/abs/2105.11644) accepted by IJCAI 2021. Welcome to follow.
 
 ### Contents
 - [Intorduction](#intorduction)
@@ -117,3 +118,20 @@ The goal of Knowledge Based Question Answering (KBQA) is to answer factual quest
 1. **Question Answering Over Temporal Knowledge Graphs**. *Apoorv Saxena, Soumen Chakrabarti, Partha Talukdar*. `ACL(2021)`. [[PDF](https://dl.acm.org/doi/abs/10.1145/3336191.3371782)] [[Code](https://github.com/apoorvumang/CronKGQA)]
 1. **Improving Zero-Shot Cross-lingual Transfer for Multilingual Question Answering over Knowledge Graph**. *Yucheng Zhou, Xiubo Geng, Tao Shen, Wenqiang Zhang, Daxin Jiang*. `NAACL(2021)`. [[PDF](https://www.aclweb.org/anthology/2021.naacl-main.465.pdf)]
 1. **Complex Question Answering on knowledge graphs using machine translation and multi-task learning**. *Saurabh Srivastava, Mayur Patidar, Sudip Chowdhury, Puneet Agarwal, Indrajit Bhattacharya, Gautam Shroff*. `EACL(2021)`. [[PDF](https://www.aclweb.org/anthology/2021.eacl-main.300.pdf)]
+
+## Citation
+If you found this list useful, please consider citing this paper:
+```
+@inproceedings{Lan-KBQASurvey-2021,
+  author    = {Yunshi Lan and
+               Gaole He and
+               Jinhao Jiang and
+               Jing Jiang and
+               Wayne Xin Zhao and
+               Ji{-}Rong Wen},
+  title     = {A Survey on Complex Knowledge Base Question Answering: Methods, Challenges
+               and Solutions},
+  booktitle = {{IJCAI}},
+  year      = {2021},
+}
+```
