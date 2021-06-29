@@ -1,8 +1,9 @@
 # KBQA Paper List
 ![](https://img.shields.io/github/last-commit/JBoRu/KBQAPapers?color=blue) ![](https://img.shields.io/badge/PaperNumber-77-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)
 
-Knowledge base question answering (KBQA) aims to answer a question over a knowledge base (KB). This repo is a paper list of KBQA. I will keep it updating and welcome pull requests and issues!
-This list based on our lateset survey paper: [A Survey on Complex Knowledge Base Question Answering: Methods, Challenges and Solutions](https://arxiv.org/abs/2105.11644) accepted by IJCAI 2021. Welcome to follow.
+Knowledge base question answering (KBQA) aims to answer a question over a knowledge base (KB). This repo is a paper list of KBQA. I will keep it updating and welcome pull requests and issues! Thanks for your fork and star!
+
+This list is organized according to our lateset survey paper: [A Survey on Complex Knowledge Base Question Answering: Methods, Challenges and Solutions](https://arxiv.org/abs/2105.11644) accepted by IJCAI 2021. Welcome to follow.
 
 ### Contents
 - [Intorduction](#intorduction)
