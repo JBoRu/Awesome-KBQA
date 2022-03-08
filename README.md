@@ -1,33 +1,27 @@
-# KBQA Paper List
-![](https://img.shields.io/github/last-commit/JBoRu/KBQAPapers?color=blue) ![](https://img.shields.io/badge/PaperNumber-77-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)
+# Intorduction
+![](https://img.shields.io/github/last-commit/JBoRu/Awesome-KBQA?color=blue)
 
-Knowledge base question answering (KBQA) aims to answer a question over a knowledge base (KB). This repo is a paper list of KBQA. I will keep it updating and welcome pull requests and issues! Thanks for your fork and star!
+Knowledge Based Question Answering (KBQA) aims to answer factual questions based on the provided knowledge base (KB). This repo contains all of the KBQA relevant resources as soon as possible, including the latest paper list, open source toolkits (or repo), and the leaderboard of benchmarks.
 
-This list is organized according to our lateset survey paper: [A Survey on Complex Knowledge Base Question Answering: Methods, Challenges and Solutions](https://arxiv.org/abs/2105.11644) accepted by IJCAI 2021. Welcome to follow.
+This list summarizes the relevant KBQA papers in recent years, and divides them into three categories: semantic parsing-based approaches (SP), information retrieval-based approaches (IR), and other approaches (Other). 
 
-### Contents
-- [Intorduction](#intorduction)
-- [Survey](#survey)
+It is organized according to our lateset survey paper: [Complex Knowledge Base Question Answering: A Survey](https://arxiv.org/pdf/2108.06688.pdf). Welcome to follow.
+
+## Contents
 - [Datasets](#datasets)
-- [Simple KBQA](#simple)
-  - [Semantic Parsing-based Methods](#simple_sp)
-  - [Information retrieval-based Methods](#simple_ir)
-  - [Other Methods](#simple_oth)
-- [Complex KBQA](#complex)
-  - [Semantic Parsing-based Methods](#complex_sp)
-  - [Information retrieval-based Methods](#complex_ir)
-  - [Other Methods](#complex_oth)
-<a name="intorduction"></a>
-## Intorduction
-The goal of Knowledge Based Question Answering (KBQA) is to answer factual questions based on the provided knowledge base (KB). This list summarizes the relevant KBQA papers in recent years, and divides them into two categories: simple KBQA and complex KBQA, each of which is divided into semantic parsing-based approaches, information retrieval-based approaches, and other approaches. Simple KBQA mainly refers to solving the problem by one fact in the knowledge graph; complex KBQA mainly refers to requiring multiple facts on the knowledge graph to locate the answer.
+- [Leaderboard](#leaderboard)
+- [Paper List](#paper_list)
+  - [Survey](#survey)
+  - [Simple KBQA](#simple)
+    - [Semantic Parsing-based Methods](#simple_sp)
+    - [Information retrieval-based Methods](#simple_ir)
+    - [Other Methods](#simple_oth)
+  - [Complex KBQA](#complex)
+    - [Semantic Parsing-based Methods](#complex_sp)
+    - [Information retrieval-based Methods](#complex_ir)
+    - [Other Methods](#complex_oth)
+- [Open Source](#open_source)
 
-<a name="survey"></a>
-## Survey
-1. **Core techniques of question answering systems over knowledge bases: a survey**. *Dennis Diefenbach, Vanessa Lopez, Kamal Singh, Pierre Maret*. `Knowledge and Information Systems(2017)`. [[PDF](https://link.springer.com/article/10.1007/s10115-017-1100-y)]
-4. **A Survey of Question Answering over Knowledge Base**. *Peiyun Wu, Xiaowang Zhang, Zhiyong Feng*. `CCIS(2019)`. [[PDF](https://link.springer.com/chapter/10.1007/978-981-15-1956-7_8)]
-1. **A Survey on Complex Question Answering over Knowledge Base: Recent Advances and Challenges**. *Bin Fu, Yunqi Qiu, Chengguang Tang, Yang Li, Haiyang Yu, Jian Sun*. `arXiv(2020)`. [[PDF](https://arxiv.org/pdf/2007.13069.pdf)]
-5. **Introduction to Neural Network based Approaches for Question Answering over Knowledge Graphs**. *Nilesh Chakraborty, Denis Lukovnikov, Gaurav Maheshwari, Priyansh Trivedi, Jens Lehmann, Asja Fischer*. `WIDM(2021)`. [[PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/widm.1389)]
-6. **A Survey on Complex Knowledge Base Question Answering: Methods, Challenges and Solutions**. *Yunshi Lan, Gaole He, Jinhao Jiang, Jing Jiang, Wayne Xin Zhao, Ji-Rong Wen*. `IJCAI(2021)`. [[PDF](https://arxiv.org/pdf/2105.11644.pdf)]
 <a name="datasets"></a>
 ## Datasets
 1. **WebQuestions**: "Semantic parsing on freebase from question-answer pairs". `EMNLP(2013)`. [[PDF](https://www.aclweb.org/anthology/D13-1160.pdf)] [[Homepage](https://worksheets.codalab.org/worksheets/0xba659fe363cb46e7a505c5b6a774dc8a)]
@@ -41,10 +35,24 @@ The goal of Knowledge Based Question Answering (KBQA) is to answer factual quest
 9. **CFQ**: "Measuring compositional generalization: A comprehensive method on realistic data". `ICLR(2020)`. [[PDF](https://arxiv.org/pdf/1912.09713.pdf)] [[Homepage](https://github.com/google-research/google-research/tree/master/cfq)]
 10. **KQA Pro**: "Kqa pro: A large diagnostic dataset for complex question answering over knowledge base". `arXiv(2020)`. [[PDF](https://arxiv.org/pdf/2007.03875.pdf)]  [[Homepage](http://thukeg.gitee.io/kqa-pro/)]
 11. **GrailQA**: "Beyond I.I.D.: three levels of generalization for question answering on knowledge bases". `WWW(2021)`. [[PDF](https://arxiv.org/pdf/2011.07743.pdf)] [[Homepage](https://dki-lab.github.io/GrailQA/)]
+
+<a name="leaderboard"></a>
+## Leaderboard
+
+<a name="paper_list"></a>
+## Paper List
+<a name="survey"></a>
+### Survey
+1. **Core techniques of question answering systems over knowledge bases: a survey**. *Dennis Diefenbach, Vanessa Lopez, Kamal Singh, Pierre Maret*. `Knowledge and Information Systems(2017)`. [[PDF](https://link.springer.com/article/10.1007/s10115-017-1100-y)]
+4. **A Survey of Question Answering over Knowledge Base**. *Peiyun Wu, Xiaowang Zhang, Zhiyong Feng*. `CCIS(2019)`. [[PDF](https://link.springer.com/chapter/10.1007/978-981-15-1956-7_8)]
+1. **A Survey on Complex Question Answering over Knowledge Base: Recent Advances and Challenges**. *Bin Fu, Yunqi Qiu, Chengguang Tang, Yang Li, Haiyang Yu, Jian Sun*. `arXiv(2020)`. [[PDF](https://arxiv.org/pdf/2007.13069.pdf)]
+5. **Introduction to Neural Network based Approaches for Question Answering over Knowledge Graphs**. *Nilesh Chakraborty, Denis Lukovnikov, Gaurav Maheshwari, Priyansh Trivedi, Jens Lehmann, Asja Fischer*. `WIDM(2021)`. [[PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/widm.1389)]
+6. **A Survey on Complex Knowledge Base Question Answering: Methods, Challenges and Solutions**. *Yunshi Lan, Gaole He, Jinhao Jiang, Jing Jiang, Wayne Xin Zhao, Ji-Rong Wen*. `IJCAI(2021)`. [[PDF](https://arxiv.org/pdf/2105.11644.pdf)]
+
 <a name="simple"></a>
-## Simple KBQA
+### Simple KBQA
 <a name="simple_sp"></a>
-### Semantic Parsing-based Methods 
+#### Semantic Parsing-based Methods 
 1. **Template-based question answering over RDF data**. *Unger, Christina, Lorenz Bühmann, Jens Lehmann, A. N. Ngomo, D. Gerber, P. Cimiano*. `WWW(2012)`. [[PDF](https://perso.liris.cnrs.fr/pierre-antoine.champin/enseignement/semweb/_static/articles/unger_2012.pdf)]
 2. **Large-scale semantic parsing via schema matching and lexicon extension**. *Qingqing Cai, Alexander Yates*. `ACL(2013)`. [[PDF](https://www.aclweb.org/anthology/P13-1042.pdf)]
 4. **Semantic parsing on freebase from question-answer pairs**. *Jonathan Berant, Andrew Chou, Roy Frostig, Percy Liang*. `EMNLP(2013)`. [[PDF](https://www.aclweb.org/anthology/D13-1160.pdf)]
@@ -56,7 +64,7 @@ The goal of Knowledge Based Question Answering (KBQA) is to answer factual quest
 11. **Learning to compose neural networks for question answering**. *Jacob Andreas, Marcus Rohrbach, Trevor Darrell, Dan Klein*. `NAACL(2016)`. [[PDF](https://arxiv.org/pdf/1601.01705.pdf)] [[Code](https://github.com/jacobandreas/nmn2)]
 10. **Knowledge base question answering with a matching-aggregation model and question-specific contextual relations**. *Yunshi Lan, Shuohang Wang, Jing Jiang*. `TASLP(2019)`. [[PDF](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5904&context=sis_research)]
 <a name="simple_ir"></a>
-### Information retrieval-based Methods
+#### Information retrieval-based Methods
 1. **Open question answering with weakly supervised embedding models**. *Antoine Bordes, Jason Weston, Nicolas Usunier*. `Machine Learning and Knowledge Discovery in Databases(2014)`. [[PDF](https://arxiv.org/pdf/1404.4326.pdf)]
 3. **Question answering with subgraph embeddings**. *Antoine Bordes, Sumit Chopra, Jason Weston*. `EMNLP(2014)`. [[PDF](https://arxiv.org/pdf/1406.3676.pdf)]
 1. **Larges cale simple question answering with memory networks**. *Antoine Bordes, Nicolas Usunier, Sumit Chopra, Jason Weston*. `arXiv(2015)`. [[PDF](https://arxiv.org/pdf/1506.02075.pdf)] [[Code](https://github.com/Jerryzhao-z/simple-question-answering-with-memory-networks)]
@@ -65,7 +73,7 @@ The goal of Knowledge Based Question Answering (KBQA) is to answer factual quest
 6. **An end-to-end model for question answering over knowledge base with cross-attention combining global knowledge**. *Yanchao Hao, Yuanzhe Zhang, Kang Liu, Shizhu He, Zhanyi Liu, Hua Wu, Jun Zhao*. `ACL(2017)`. [[PDF](https://www.aclweb.org/anthology/P17-1021.pdf)]
 6. **Bidirectional Attentive Memory Networks for Question Answering over Knowledge Bases**. *Yu Chen, Lingfei Wu, Mohammed J. Zaki*. `NAACL(2019)`. [[PDF](https://arxiv.org/pdf/1903.02188.pdf)] [[Code](https://github.com/hugochan/BAMnet?utm_source=catalyzex.com)]
 <a name="simple_oth"></a>
-### Other Methods
+#### Other Methods
 1. **Hybrid question answering over knowledge base and free text**. *Kun Xu, Yansong Feng, Songfang Huang, Dongyan Zhao*. `COLING(2016)`. [[PDF](https://www.aclweb.org/anthology/C16-1226.pdf)]
 4. **Question answering on freebase via relation extraction and textual evidence**. *Kun Xu, Siva Reddy, Yansong Feng, Songfang Huang, Dongyan Zhao*. `ACL(2016)`. [[PDF](https://www.aclweb.org/anthology/P16-1220.pdf)] [[Code](https://github.com/syxu828/QuestionAnsweringOverFB)]
 1. **Improved neural relation detection for knowledge base question answering**. *Mo Yu, Wenpeng Yin, Kazi Saidul Hasan, Cicero dos Santos, Bing Xiang, Bowen Zhou*. `ACL(2017)`. [[PDF](https://www.aclweb.org/anthology/P17-1053.pdf)]
@@ -74,9 +82,9 @@ The goal of Knowledge Based Question Answering (KBQA) is to answer factual quest
 3. **Retrieval, Re-ranking and Multi-task Learning for Knowledge-Base Question Answering**. *Zhiguo Wang, Patrick Ng, Ramesh Nallapati, Bing Xiang*. `EACL(2021)`. [[PDF](https://www.aclweb.org/anthology/2021.eacl-main.26.pdf)].
 
 <a name="complex"></a>
-## Complex KBQA
+### Complex KBQA
 <a name="complex_sp"></a>
-### Semantic Parsing-based Methods
+#### Semantic Parsing-based Methods
 1. **Automated template generation for question answering over knowledge graphs**. *Abujabal, Abdalghani, Mohamed Yahya, Mirek Riedewald, G. Weikum*. `WWW(2017)`. [[PDF](http://papers.www2017.com.au.s3-website-ap-southeast-2.amazonaws.com/proceedings/p1191.pdf)]
 1. **Neural symbolic machines: Learning semantic parsers on Freebase with weak supervision**. *Chen Liang, Jonathan Berant, Quoc Le, Kenneth D. Forbus, Ni Lao*. `ACL(2017)`. [[PDF](https://arxiv.org/pdf/1611.00020.pdf)] [[Code](https://github.com/agarwl/neural-symbolic-machines?utm_source=catalyzex.com)]
 1. **Knowledge base question answering via encoding of complex query graphs**. *Kangqi Luo, Fengli Lin, Xusheng Luo, Kenny Zhu*. `EMNLP(2018)`. [[PDF](https://www.aclweb.org/anthology/D18-1242.pdf)] [[Code](https://github.com/lkq1992yeah/CompQA)]
@@ -96,7 +104,7 @@ The goal of Knowledge Based Question Answering (KBQA) is to answer factual quest
 1. **Answering Complex Questions by Combining Information from Curated and Extracted Knowledge Bases**. *Nikita Bhutani, Xinyi Zheng, Kun Qian, Yunyao Li, H. Jagadish*. `ACL(2020)`. [[PDF](https://www.aclweb.org/anthology/2020.nli-1.1.pdf)]
 1. **Leveraging abstract meaning representation for knowledge base question answering**. *Pavan Kapanipathi, Ibrahim Abdelaziz, Srinivas Ravishankar, Salim Roukos, Alexander Gray, Ramon Astudillo, Maria Chang, Cristina Cornelio, Saswati Dana, Achille Fokoue, Dinesh Garg, Alfio Gliozzo, Sairam Gurajada, Hima Karanam, Naweed Khan, Dinesh Khandelwal, Young-Suk Lee, Yunyao Li, Francois Luus, Ndivhuwo Makondo, Nandana Mihindukulasooriya, Tahira Naseem, Sumit Neelam, Lucian Popa, Revanth Reddy, Ryan Riegel, Gaetano Rossiello, Udit Sharma, G P Shrivatsa Bhargav, Mo Yu*. `Findings of ACL(2021)`. [[PDF](https://arxiv.org/pdf/2012.01707.pdf)]
 <a name="complex_ir"></a>
-### Information retrieval-based Methods
+#### Information retrieval-based Methods
 1. **Open domain question answering based on text enhanced knowledge graph with hyperedge infusion**. *Jiale Han, Bo Cheng, Xu Wang*. `Findings of EMNLP(2018)`. [[PDF](https://www.aclweb.org/anthology/2020.findings-emnlp.133.pdf)]
 1. **Open domain question answering using early fusion of knowledge bases and text**. *Haitian Sun, Bhuwan Dhingra, Manzil Zaheer, Kathryn Mazaitis, Ruslan Salakhutdinov, William Cohen*. `EMNLP(2018)`. [[PDF](https://www.aclweb.org/anthology/D18-1455.pdf)] [[Code](https://github.com/OceanskySun/GraftNet?utm_source=catalyzex.com)]
 1. **An interpretable reasoning network for multi-relation question answering**. *Mantong Zhou, Minlie Huang, Xiaoyan Zhu*. `COLING(2018)`. [[PDF](https://www.aclweb.org/anthology/C18-1171.pdf)] [[Code](https://github.com/zmtkeke/IRN?utm_source=catalyzex.com)]
@@ -111,7 +119,7 @@ The goal of Knowledge Based Question Answering (KBQA) is to answer factual quest
 1. **Modeling Long-distance Node Relations for KBQA with Global Dynamic Graph**. *Xu Wang, Shuai Zhao, Jiale Han, Bo Cheng, Hao Yang, Jianchang Ao, Zhenzi Li*. `COLING(2020)`. [[PDF](https://www.aclweb.org/anthology/2020.coling-main.231.pdf)]
 1. **Improving multi-hop knowledge base question answering by learning intermediate supervision signals**. *Gaole He, Yunshi Lan, Jing Jiang, Wayne Xin Zhao, Ji-Rong Wen*. `WSDM(2021)`. [[PDF](https://arxiv.org/pdf/2101.03737.pdf)] [[Code](https://github.com/RichardHGL/WSDM2021_NSM)]
 <a name="complex_oth"></a>
-### Other Methods
+#### Other Methods
 1. **QUINT: Interpretable Question Answering over Knowledge Bases**. *Abdalghani Abujabal, Rishiraj Saha Roy, Mohamed Yahya, Gerhard Weikum*. `EMNLP(2017)`. [[PDF](https://www.aclweb.org/anthology/D17-2011.pdf)]
 1. **Modeling Semantics with Gated Graph Neural Networks for Knowledge Base Question Answering**. *Daniil Sorokin, Iryna Gurevych*. `COLING(2018)`. [[PDF](https://www.aclweb.org/anthology/C18-1280.pdf)] [[Code](https://github.com/UKPLab/coling2018-graph-neural-networks-question-answering?utm_source=catalyzex.com)]
 1. **PERQ: Predicting, Explaining, and Rectifying Failed Questions in KB-QA Systems**. *Zhiyong Wu, Ben Kao, Tien-Hsuan Wu, Pengcheng Yin, Qun Liu*. `WSDM(2020)`. [[PDF](https://dl.acm.org/doi/abs/10.1145/3336191.3371782)]
@@ -119,6 +127,9 @@ The goal of Knowledge Based Question Answering (KBQA) is to answer factual quest
 1. **Question Answering Over Temporal Knowledge Graphs**. *Apoorv Saxena, Soumen Chakrabarti, Partha Talukdar*. `ACL(2021)`. [[PDF](https://dl.acm.org/doi/abs/10.1145/3336191.3371782)] [[Code](https://github.com/apoorvumang/CronKGQA)]
 1. **Improving Zero-Shot Cross-lingual Transfer for Multilingual Question Answering over Knowledge Graph**. *Yucheng Zhou, Xiubo Geng, Tao Shen, Wenqiang Zhang, Daxin Jiang*. `NAACL(2021)`. [[PDF](https://www.aclweb.org/anthology/2021.naacl-main.465.pdf)]
 1. **Complex Question Answering on knowledge graphs using machine translation and multi-task learning**. *Saurabh Srivastava, Mayur Patidar, Sudip Chowdhury, Puneet Agarwal, Indrajit Bhattacharya, Gautam Shroff*. `EACL(2021)`. [[PDF](https://www.aclweb.org/anthology/2021.eacl-main.300.pdf)]
+
+<a name="open_source"></a>
+## Open Source
 
 ## Citation
 If you found this list useful, please consider citing this paper:
@@ -130,9 +141,8 @@ If you found this list useful, please consider citing this paper:
                Jing Jiang and
                Wayne Xin Zhao and
                Ji{-}Rong Wen},
-  title     = {A Survey on Complex Knowledge Base Question Answering: Methods, Challenges
-               and Solutions},
-  booktitle = {{IJCAI}},
+  title     = {Complex Knowledge Base Question Answering: A Survey},
+  booktitle = {{arXiv}},
   year      = {2021},
 }
 ```
