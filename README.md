@@ -23,21 +23,18 @@ It is organized according to our lateset survey paper: [Complex Knowledge Base Q
 - [Open Source](#open_source)
 
 <a name="datasets"></a>
-## Datasets
-1. **WebQuestions**: "Semantic parsing on freebase from question-answer pairs". `EMNLP(2013)`. [[PDF](https://www.aclweb.org/anthology/D13-1160.pdf)] [[Homepage](https://worksheets.codalab.org/worksheets/0xba659fe363cb46e7a505c5b6a774dc8a)]
-2. **ComplexQuestions**: "Constraint based question answering with knowledge graph". `COLING(2016)`. [[PDF](https://www.aclweb.org/anthology/C16-1236.pdf)] [[Homepage](https://github.com/JunweiBao/MulCQA/tree/ComplexQuestions)]
-3. **WebQuestionsSP**: "The value of semantic parse labeling for knowledge base question answering". `ACL(2016)`. [[PDF](https://www.aclweb.org/anthology/P16-2033.pdf)] [[Homepage](https://www.microsoft.com/en-us/download/details.aspx?id=52763)]
-4. **ComplexWebQuestions**: "The web as a knowledge-base for answering complex questions". `NAACL(2018)`. [[PDF](https://allenai.org/data/complexwebquestions)] [[Homepage](https://allenai.org/data/complexwebquestions)]
-5. **QALD**: "Evaluating question answering over linked data". `Web  Semantics Science Services And Agents On The World Wide Web(2013)`. [[PDF](https://www.researchgate.net/publication/241166948_Evaluating_Question_Answering_over_Linked_Data)] [[Homepage](http://qald.aksw.org/)]
-6. **LC-QuAD 1.0**: "Lc-quad: A corpus for complex question answering over knowledge graphs". `ISWC(2017)`. [[PDF](https://jens-lehmann.org/files/2017/iswc_lcquad.pdf)] [[Homepage](http://lc-quad.sda.tech/lcquad1.0.html)]
-7. **LC-QuAD 2.0**: "“Lc-quad 2.0: A large dataset for complex question answering over wikidata and dbpedia". `ISWC(2019)`. [[PDF](https://jens-lehmann.org/files/2019/iswc_lcquad2.pdf)] [[Homepage](http://lc-quad.sda.tech/)]
-8. **MetaQA Vanilla**: "Variational reasoning for question answering with knowledge graph". `AAAI(2018)`. [[PDF](https://arxiv.org/pdf/1709.04071.pdf)] [[Homepage](https://github.com/yuyuz/MetaQA)]
-9. **CFQ**: "Measuring compositional generalization: A comprehensive method on realistic data". `ICLR(2020)`. [[PDF](https://arxiv.org/pdf/1912.09713.pdf)] [[Homepage](https://github.com/google-research/google-research/tree/master/cfq)]
-10. **KQA Pro**: "Kqa pro: A large diagnostic dataset for complex question answering over knowledge base". `arXiv(2020)`. [[PDF](https://arxiv.org/pdf/2007.03875.pdf)]  [[Homepage](http://thukeg.gitee.io/kqa-pro/)]
-11. **GrailQA**: "Beyond I.I.D.: three levels of generalization for question answering on knowledge bases". `WWW(2021)`. [[PDF](https://arxiv.org/pdf/2011.07743.pdf)] [[Homepage](https://dki-lab.github.io/GrailQA/)]
-
-<a name="leaderboard"></a>
-## Leaderboard
+## Datasets And Leaderboard
+1. **WebQuestions**: "Semantic parsing on freebase from question-answer pairs". `EMNLP(2013)`. [[PDF](https://www.aclweb.org/anthology/D13-1160.pdf)] [[Homepage](https://worksheets.codalab.org/worksheets/0xba659fe363cb46e7a505c5b6a774dc8a)][[Leaderboard]]
+2. **ComplexQuestions**: "Constraint based question answering with knowledge graph". `COLING(2016)`. [[PDF](https://www.aclweb.org/anthology/C16-1236.pdf)] [[Homepage](https://github.com/JunweiBao/MulCQA/tree/ComplexQuestions)][[Leaderboard]]
+3. **WebQuestionsSP**: "The value of semantic parse labeling for knowledge base question answering". `ACL(2016)`. [[PDF](https://www.aclweb.org/anthology/P16-2033.pdf)] [[Homepage](https://www.microsoft.com/en-us/download/details.aspx?id=52763)][[Leaderboard]]
+4. **ComplexWebQuestions**: "The web as a knowledge-base for answering complex questions". `NAACL(2018)`. [[PDF](https://allenai.org/data/complexwebquestions)] [[Homepage](https://allenai.org/data/complexwebquestions)][[Leaderboard]]
+5. **QALD**: "Evaluating question answering over linked data". `Web  Semantics Science Services And Agents On The World Wide Web(2013)`. [[PDF](https://www.researchgate.net/publication/241166948_Evaluating_Question_Answering_over_Linked_Data)] [[Homepage](http://qald.aksw.org/)][[Leaderboard]]
+6. **LC-QuAD 1.0**: "Lc-quad: A corpus for complex question answering over knowledge graphs". `ISWC(2017)`. [[PDF](https://jens-lehmann.org/files/2017/iswc_lcquad.pdf)] [[Homepage](http://lc-quad.sda.tech/lcquad1.0.html)][[Leaderboard]]
+7. **LC-QuAD 2.0**: "“Lc-quad 2.0: A large dataset for complex question answering over wikidata and dbpedia". `ISWC(2019)`. [[PDF](https://jens-lehmann.org/files/2019/iswc_lcquad2.pdf)] [[Homepage](http://lc-quad.sda.tech/)][[Leaderboard]]
+8. **MetaQA Vanilla**: "Variational reasoning for question answering with knowledge graph". `AAAI(2018)`. [[PDF](https://arxiv.org/pdf/1709.04071.pdf)] [[Homepage](https://github.com/yuyuz/MetaQA)][[Leaderboard]]
+9. **CFQ**: "Measuring compositional generalization: A comprehensive method on realistic data". `ICLR(2020)`. [[PDF](https://arxiv.org/pdf/1912.09713.pdf)] [[Homepage](https://github.com/google-research/google-research/tree/master/cfq)][[Leaderboard]]
+10. **KQA Pro**: "Kqa pro: A large diagnostic dataset for complex question answering over knowledge base". `arXiv(2020)`. [[PDF](https://arxiv.org/pdf/2007.03875.pdf)]  [[Homepage](http://thukeg.gitee.io/kqa-pro/)][[Leaderboard]]
+11. **GrailQA**: "Beyond I.I.D.: three levels of generalization for question answering on knowledge bases". `WWW(2021)`. [[PDF](https://arxiv.org/pdf/2011.07743.pdf)] [[Homepage](https://dki-lab.github.io/GrailQA/)][[Leaderboard]]
 
 <a name="paper_list"></a>
 ## Paper List
