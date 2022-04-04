@@ -1,9 +1,8 @@
-# ComplexWebQuestions 
+# ComplexQuestions 
 
-**ComplexWebQuestions**<sup>[[1]](#myfootnote1)</sup> is a famous extension of the WebQuestions dataset, introduced to solve the second issue of few complex multi-relational questions in the WebQuestions. 
-It is created by adding more constraints and multi-hop relations into the SPARQL queries from WebQuestionsSP, and then automatically generating questions via templates and Amazon Mechanic Turk.
+**ComplexQuestions**<sup>[[1]](#myfootnote1)</sup> consists of 2100 multi-constraint question-answer pairs coming from 3 sources.
 
-This dataset can be downloaded via the [link](https://www.dropbox.com/sh/7pkwkrfnwqhsnpo/AACuu4v3YNkhirzBOeeaHYala). 
+This dataset can be downloaded via the [link](https://github.com/JunweiBao/MulCQA/tree/ComplexQuestions).
 
 ## Leaderboard 
 | Method   | Results sorted by descending order  |
@@ -12,7 +11,9 @@ This dataset can be downloaded via the [link](https://www.dropbox.com/sh/7pkwkrf
 | IR-based (Acc) |  |
 
 
+
 ## References
-<a name="myfootnote1">[1]</a> Talmor, Alon, and Jonathan Berant. [The web as a knowledge-base for answering complex questions.](https://arxiv.org/abs/1803.06643) arXiv preprint arXiv:1803.06643 (2018).
+<a name="myfootnote1">[1]</a> Bao, Junwei, Nan Duan, Zhao Yan, Ming Zhou, and Tiejun Zhao. [Constraint-based question answering with knowledge graph.](https://aclanthology.org/C16-1236.pdf) In Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics: Technical Papers, pp. 2503-2514. 2016.
+
 
 [Go back to the README](../README.md)
