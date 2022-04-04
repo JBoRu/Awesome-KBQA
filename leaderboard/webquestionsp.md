@@ -8,10 +8,9 @@ This dataset can be downloaded via the [link](https://www.microsoft.com/en-us/do
 
 
 ## Leaderboard 
-| Method   | Results sorted by descending order  |
-|:----: |:----: |
-| SP-based (F1) |  |
-| IR-based (Acc) |  |
+| Model | Year | Type | Precision | Recall | F1 | Acc | Reported by | Official Repo |
+|:-----:|:----:|:----:|:---------:|:------:|:--:|:---:|:-----------:| :-----------: |
+| mBERT | 2021 | IR-based | 73.00 | - | 85.50 | - | [Zhou Y. et al](https://aclanthology.org/2021.naacl-main.465.pdf) | - |
 
 ## References 
 <a name="myfootnote1">[1]</a> Yih, Wen-tau, Matthew Richardson, Christopher Meek, Ming-Wei Chang, and Jina Suh. [The value of semantic parse labeling for knowledge base question answering.](http://anthology.aclweb.org/P16-2033) In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), pp. 201-206. 2016.
