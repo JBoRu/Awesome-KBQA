@@ -5,10 +5,9 @@
 This dataset can be downloaded via the [link](https://github.com/JunweiBao/MulCQA/tree/ComplexQuestions).
 
 ## Leaderboard 
-| Method   | Results sorted by descending order  |
-|:----: |:----: |
-| SP-based (F1) |  |
-| IR-based (Acc) |  |
+| Model | Year | Type | Precision | Recall | F1 | Acc | Reported by | Official Repo |
+|:-----:|:----:|:----:|:---------:|:------:|:--:|:---:|:-----------:| :-----------: |
+| mBERT | 2021 | IR-based | 73.00 | - | 85.50 | - | [Zhou Y. et al](https://aclanthology.org/2021.naacl-main.465.pdf) | - |
 
 
 
