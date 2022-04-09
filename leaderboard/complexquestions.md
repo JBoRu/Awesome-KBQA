@@ -5,8 +5,8 @@
 This dataset can be downloaded via the [link](https://github.com/JunweiBao/MulCQA/tree/ComplexQuestions).
 
 ## Leaderboard 
-| Model | Year | Type | F1 | Acc | Reported by | Official Repo |
-|:-----:|:----:|:----:|:--:|:---:|:-----------:| :-----------: |
+| Year | Type | F1 | Acc | Reported by | Official Repo |
+|:----:|:----:|:--:|:---:|:-----------:| :-----------: |
 | 2020 | SP-based | 45.0 | - | [Qiu. et al](https://dl.acm.org/doi/abs/10.1145/3340531.3411888) | - |
 | 2020 | SP-based | 43.3 | - | [Lan. et al](https://aclanthology.org/2020.acl-main.91.pdf) | [Repo](https://github.com/lanyunshi/Multi-hopComplexKBQA) |
 | 2020 | SP-based | 43.1 | - | [Chen. et al](https://www.ijcai.org/proceedings/2020/0519.pdf) | - |
