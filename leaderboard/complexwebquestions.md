@@ -6,9 +6,11 @@ It is created by adding more constraints and multi-hop relations into the SPARQL
 This dataset can be downloaded via the [link](https://www.dropbox.com/sh/7pkwkrfnwqhsnpo/AACuu4v3YNkhirzBOeeaHYala). 
 
 ## Leaderboard 
-| Model | Year | Type | F1 | Acc | Reported by | Official Repo |
-|:-----:|:----:|:----:|:--:|:---:|:-----------:| :-----------: |
-| mBERT | 2021 | IR-based | 85.50 | - | [Zhou Y. et al](https://aclanthology.org/2021.naacl-main.465.pdf) | - |
+| Year | Type | F1 | Acc | Reported by | Official Repo |
+|:----:|:----:|:--:|:---:|:-----------:| :-----------: |
+| 2020 | SP-based | 40.4 | - | [Lan. et al](https://aclanthology.org/2020.acl-main.91.pdf) | [Repo](https://github.com/lanyunshi/Multi-hopComplexKBQA) |
+| 2019 | SP-based | 33.9 | - | [Bhutani. et al](https://dl.acm.org/doi/abs/10.1145/3357384.3358033) | - |
+| 2019 | SP-based | 31.6 | - | [Sun. et al](https://arxiv.org/pdf/2003.13956.pdf) | - |
 
 
 ## References
