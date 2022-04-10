@@ -9,9 +9,10 @@ contains 239357 English question-answer pairs, which encompass 49320 question pa
 This dataset can be downloaded via the [link](https://github.com/google-research/google-research/tree/master/cfq).
 
 ## Leaderboard 
-| Model | Year | Type | Precision | Recall | F1 | Acc | Reported by | Official Repo |
-|:-----:|:----:|:----:|:---------:|:------:|:--:|:---:|:-----------:| :-----------: |
-| mBERT | 2021 | IR-based | 73.00 | - | 85.50 | - | [Zhou Y. et al](https://aclanthology.org/2021.naacl-main.465.pdf) | - |
+| Year | Type | F1 | Acc | Reported by | Official Repo |
+|:----:|:----:|:--:|:---:|:-----------:| :-----------: |
+| 2020 | SP-based | 67.3 | - | [Guo Y. et al](https://arxiv.org/pdf/2010.07792.pdf) | - |
+| 2019 | SP-based | 18.9 | - | [Keysers. et al](https://arxiv.org/pdf/1912.09713.pdf) | [Repo](https://github.com/google-research/google-research/tree/master/cfq?utm_source=catalyzex.com) |
 
 ## References 
 <a name="myfootnote1">[1]</a> Keysers, D., Schärli, N., Scales, N., Buisman, H., Furrer, D., Kashubin, S., Momchev, N., Sinopalnikov, D., Stafiniak, L., Tihon, T. and Tsarkov, D., 2019. [Measuring compositional generalization: A comprehensive method on realistic data.](https://arxiv.org/pdf/1912.09713.pdf) arXiv preprint arXiv:1912.09713.
