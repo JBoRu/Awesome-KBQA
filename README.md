@@ -1,4 +1,4 @@
-# Intorduction
+# Introduction
 ![](https://img.shields.io/github/last-commit/JBoRu/Awesome-KBQA?color=blue)
 
 Knowledge Based Question Answering (KBQA) aims to answer factual questions based on the provided knowledge base (KB). This repo contains all of the KBQA relevant resources as soon as possible, including the latest paper list, open source toolkits (or repo), and the leaderboard of benchmarks.
